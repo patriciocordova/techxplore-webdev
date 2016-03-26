@@ -1,0 +1,69 @@
+html{
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body{
+  background-color:black;
+  background-image: url("http://c4.staticflickr.com/9/8378/8497132547_46712b7747_b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  text-align:center;
+}
+
+h2{
+  font-style: italic;
+}
+
+.fa{
+  margin: 6px 10px;
+  color: #601848;
+  font-size: 1.5rem;
+}
+
+.fa:hover{
+  color: #C04848;
+  transition: color 0.2s ease;
+}
+
+.highlighted{
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #FA6900;
+}
+
+#visitor{
+  color: #B90504;
+}
+
+#group{
+  margin-top: 100px;
+  width:100%;
+  text-align: center;
+}
+
+#square{
+  width: 500px;
+  margin:auto;
+  margin-top: 10px;
+  background-color: white;
+  background-color: rgba(255,255,255,0.7);
+  padding: 10px 10px;
+  color: #555;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#me{
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+#bio{
+  font-size: 1.1rem;
+  text-align: justify;
+  margin: 10px 20px;
+}
